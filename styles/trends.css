@@ -1,0 +1,75 @@
+.trends {
+	width: 86%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -71px;
+	background-color: white;
+	box-shadow: 0 0 30px rgba(112, 72, 226, 0.1);
+	padding-bottom: 80px;
+}
+
+.trends h3 {
+	margin: 0 0 63px 0;
+	padding-top: 80px;
+}
+
+.item h4 {
+	margin: 0 0 80px 0;
+}
+.item {
+	padding-top: 24px;
+	margin-bottom: 40px;
+}
+
+.item button {
+	position: absolute;
+	left: 25%;
+	bottom: -40px;
+	background-color: #8e81f8;
+	color: white;
+	font: 20px OpenSans-SemiBold;
+	padding: 20px 50px;
+	border: none;
+	border-radius: 50px;
+}
+
+.statitem img {
+	float: left;
+	margin-right: 10px;
+}
+.statitem h6 {
+	display: inline-block;
+	font: 14px OpenSans-Regular;
+	color: #bbbbbb;
+	margin: 0;
+}
+.statitem {
+	display: inline-block;
+}
+.statitem:first-child {
+	margin-left: 24px;
+	margin-right: 60%;
+}
+
+.statitem {
+	opacity: 0;
+}
+.item button {
+	opacity: 0;
+}
+.item.active {
+	box-shadow: 0 0 30px rgba(112, 72, 226, 0.1);
+	position: relative;
+} 
+.item.active button{
+	opacity: 1;
+} 
+.item.active .statitem {
+	opacity: 1;
+}
+.item:hover {
+	cursor: pointer;
+}
+.item.active:hover {
+	cursor: default;
+}

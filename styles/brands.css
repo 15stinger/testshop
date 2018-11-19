@@ -1,0 +1,32 @@
+.brands {
+	margin-top: 48px;	
+}
+
+.brandstext {
+	float: left;
+	width: 45%;
+	margin-top: 195px;
+	font: 24px OpenSans-Regular;
+}
+.brandstext h2 {
+	font: 50px OpenSans-Bold;
+	margin: 0 0 0 -2px
+}
+.brandstext p {
+	margin: 13px 0 22px 0;
+    letter-spacing: 0.7px;
+}
+.brandstext p span {
+	color: #8d83f9;
+}
+.brandstext article {
+	color: #888888;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    line-height: 1.7;
+}
+
+.brandsimg img {
+	float: right;
+	width: 50%;
+}

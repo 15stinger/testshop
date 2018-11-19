@@ -1,0 +1,68 @@
+@media (max-width: 1280px) {
+	.items {
+	}
+	.statitem:first-child {
+		margin-right: 42%;
+	}
+	.item button {
+		left: 18%;
+	}
+	.newsletter h1 {
+		padding-top: 100px;
+	}
+	.newsletter {
+		height: 442px;
+	}
+}
+
+
+
+@media (max-width: 1160px) {
+	header article {
+		font-size: 25px;
+	}
+	.headtext p {
+		font-size: 20px;
+	}
+	.headtext {
+		padding-bottom: 100px;
+	}
+	.details {
+		margin: 0;
+	}		
+	.details h6 {}
+	.item {
+		width: 49%;
+	}
+	.brandstext {
+		width: 40%;
+		margin-top: 50px;
+	}
+	.brandsimg img {
+		width: 50%;
+	}
+	.watchesmenu li {
+		font-size: 10px;
+		margin-right: 8%;
+	}
+	.watchesmenu li.active {
+		font-size: 12px;
+	}
+	.newsletter h1 {
+		padding-top: 50px;
+	}
+	.newsletter {
+		height: 392px;
+	}
+}
+
+
+
+
+@media (max-width: 1710px) {
+	.items {
+	}
+	.newsletter input[type="text"] {
+    	border-right: 90px solid white;
+    }
+}

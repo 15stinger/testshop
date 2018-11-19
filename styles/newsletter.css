@@ -1,0 +1,43 @@
+.newsletter {
+	background-image: url(../images/bg2.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100%;
+	height: 492px;
+}
+.newsletter h1 {
+	font: 50px OpenSans-Bold;
+	color: white;
+	text-align: center;
+	padding-top: 150px;
+	margin: 0;
+}
+.newsletter form {
+	margin: 0 30% 0 30%;
+	padding-top: 60px;
+	position: relative;
+}
+.newsletter input[type="text"] {
+	border: none;
+	font: 18px "OpenSans-Regular";
+	height: 71px;
+	border-radius: 35px 0 0 35px;
+	border-right: 50px solid white;
+	width: 45%;
+	padding: 0 100px 0 30px;
+	margin: 0 0 0 0;	
+}
+.newsletter input[type="text"]::placeholder {
+	color: black;
+}
+.newsletter button {
+	color: white;
+	font: 20px OpenSans-SemiBold;
+	background-color: #8c84f9;
+	border: 5px solid white;
+	border-radius: 45px;
+	padding: 17px 65px;
+	position: absolute;
+	top: 60px;
+	right: 0;
+}

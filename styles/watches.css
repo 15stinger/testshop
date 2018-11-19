@@ -1,0 +1,37 @@
+.watches {
+	width: 86%;
+	margin: 0 auto;
+	background-color: white;
+	box-shadow: 0 0 30px rgba(112, 72, 226, 0.1);
+	padding-bottom: 50px;
+}
+.watchesmenu {
+	background-color: white;
+	margin: 83px 110px 60px 160px;
+	font: 15px OpenSans-SemiBold;
+	color: #333333;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(112, 72, 226, 0.1);
+}
+.watchesmenu li {
+	display: inline-block;
+	margin-right: 12%;
+	padding: 25px 0 25px 0;
+	width: 6%;
+}
+.watchesmenu li.active {
+	color: #b394fa;
+	font-size: 18px;
+	text-shadow: -2px 7px 6px rgba(179, 148, 250, 0.5);
+}
+.watchesmenu ul {
+	padding: 0 80px 0 120px;
+	margin: 0;
+}
+.watchesmenu li:last-child {
+	margin-right: 0;
+}
+
+.watches .item h4 {
+	margin-bottom: 40px;
+}

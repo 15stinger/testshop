@@ -1,0 +1,92 @@
+header {
+	padding-top: 80px;
+	background-image: url(../images/bg1main.gif);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.head .menu {
+	display: inline-block;
+	float: right;
+	background-color: white;
+	padding: 14px 28px;
+	border-radius: 45px;
+}
+.head .menu img {
+	float: left;
+	padding-top: 4px;
+}
+.head img:hover {
+	cursor: pointer;
+}
+.head input[type="text"] {
+	border: none;
+	border-right: 1px solid #e0e0e0;
+	padding-left: 15px;
+	width: 108px;
+	height: 30px;
+	font: 18px "OpenSans-SemiBold";
+}
+input[type="text"]::placeholder {
+	color: black;
+}
+.collection {
+	display: inline-block;
+}
+.collection p {
+	margin: 0;
+	display: inline-block;
+	font: 18px "OpenSans-SemiBold";
+	padding-left: 34px;
+	padding-right: 20px;
+}
+.collection {
+	cursor: pointer;
+}
+
+.headtext {
+ 	 font: 115px Roboto-Bold;
+ 	 color: white;
+ 	 margin-top: 190px;
+ 	 margin-left: 56%;
+ 	 padding-bottom: 290px;
+ 	 line-height: 1;
+}
+.headtext article span {
+	color: black;
+}
+.headtext p {
+	font: 50px Roboto-Medium;	
+    margin-top: 20px;
+    margin-left: 10px;	
+    margin-bottom: 0;
+}
+.headtext p span {
+	color: #fbf934;	
+}
+
+.details {
+	font: 26px OpenSans-SemiBold;
+	background-color: white;
+	color: black;
+	display: inline-block;
+	border-radius: 50px;
+	box-shadow: 0 0 30px rgba(112, 72, 226, 0.1);	
+    margin-left: 8px;
+    margin-top: 85px;
+}
+.details:hover {
+	cursor: pointer;
+}
+.details h6 {
+	display: inline-block;
+	margin: 0;
+	padding: 18px 0 20px 49px;
+	letter-spacing: 1px;
+}
+.details i {
+	color: #7048e2;
+	font-size: 15px;
+	padding: 0 53px 0 15px;
+}

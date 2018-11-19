@@ -1,0 +1,51 @@
+@font-face {
+	font-family: "Roboto-Medium";
+	src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+} 
+
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+} 
+
+@font-face {
+	font-family: "Roboto-Bold";
+	src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+} 
+
+@font-face {
+	font-family: "OpenSans-SemiBold";
+	src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+} 
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+} 
+
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+} 
+
+@font-face {
+	font-family: "Montserrat-Light";
+	src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+} 
+
+
+
